@@ -54,14 +54,14 @@ public final class ItemsAdderAddon extends ItemAddon implements Listener {
     @Contract(pure = true)
     @Override
     public @NotNull String getVersion() {
-        return "1.0.0";
+        return "1.0.2";
     }
 
     @EventHandler
     public void onItemsAdderLoad(ItemsAdderLoadDataEvent event) {
-        this.plugin.getLogger().info("Detected that ItemsAdder has loaded, reloading...");
+        this.plugin.getLogger().info("Detected that ItemsAdder has loaded, reloading menus...");
         this.iaStatus = true;
-        this.plugin.onReload();
+        this.plugin.reloadMenus();
     }
 
     @Contract(pure = true)
