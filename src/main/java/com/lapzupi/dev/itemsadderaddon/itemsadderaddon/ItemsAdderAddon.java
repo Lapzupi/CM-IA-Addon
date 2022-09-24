@@ -69,8 +69,9 @@ public final class ItemsAdderAddon extends ItemAddon implements Listener {
         return iaStatus ? "Loaded" : "Not Loaded";
     }
 
+    @Contract(pure = true)
     @Override
-    public String getUrl() {
+    public @NotNull String getUrl() {
         return "https://github.com/Lapzupi/CM-IA-Addon/releases";
     }
 }
