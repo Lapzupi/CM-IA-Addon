@@ -19,7 +19,7 @@
         <maven.shade.version>3.4.0</maven.shade.version>
 
         <paper.version>1.19.2-R0.1-SNAPSHOT</paper.version>
-        <cmenu.version>0.2.0</cmenu.version>
+        <cmenu.version>0.2.1</cmenu.version>
         <itemsadder.api.version>3.0.0</itemsadder.api.version>
     </properties>
 
